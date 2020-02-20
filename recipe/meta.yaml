@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -56,7 +56,7 @@ about:
     of the scientific process.  From discovery and downloading,
     to visualization, to retrievals and advanced calculations
   doc_url: https://arm-doe.github.io/ACT/
-  dev_url: https://arm-doe.github.io/ACT/
+  dev_url: https://github.com/ARM-DOE/ACT
 
 extra:
   recipe-maintainers:
