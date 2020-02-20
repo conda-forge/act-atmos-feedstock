@@ -1,7 +1,7 @@
 About act-atmos
 ===============
 
-Home: https://github.com/ANL-DIGR/ACT
+Home: https://github.com/ARM-DOE/ACT
 
 Package license: BSD-3-Clause
 
