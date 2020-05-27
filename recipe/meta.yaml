@@ -36,6 +36,7 @@ requirements:
     - netcdf4
     - six
     - requests
+    - metpy <= 0.12.0
 
 test:
   requires:
