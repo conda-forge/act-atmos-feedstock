@@ -31,12 +31,11 @@ requirements:
     - distributed
     - pint
     - cartopy
-    - metpy
+    - metpy <=0.12.0
     - boto3
     - netcdf4
     - six
     - requests
-    - metpy <=0.12.0
 
 test:
   requires:
