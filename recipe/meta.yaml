@@ -31,7 +31,7 @@ requirements:
     - distributed
     - pint
     - cartopy <=0.17.0
-    - metpy <=0.12.0
+    - metpy
     - boto3
     - netcdf4
     - six
