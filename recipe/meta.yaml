@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2784505d329445eb36be97e8f705e7495b91cdc0480ab49baf2aa786be3b6542
+  sha256: 8e5db3f7b5620c739579632a77963b893b81c1a5082890c4d20fd2017ee56a74
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -50,7 +50,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Python library for working with atmospheric time-series by n-dimension datasets'
+  summary: Python library for working with atmospheric time-series by n-dimension datasets
 
   description: |
     Toolkit for working with atmospheric data in every aspect
