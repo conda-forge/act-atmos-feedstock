@@ -35,8 +35,7 @@ requirements:
     - netcdf4
     - six
     - requests
-    - pip:
-        astral
+    - astral
 
 test:
   requires:
