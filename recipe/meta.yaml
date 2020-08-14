@@ -26,7 +26,6 @@ requirements:
     - matplotlib-base
     - numpy
     - scipy
-    - astral
     - dask
     - distributed
     - pint
@@ -36,6 +35,8 @@ requirements:
     - netcdf4
     - six
     - requests
+    - pip:
+        astral
 
 test:
   requires:
