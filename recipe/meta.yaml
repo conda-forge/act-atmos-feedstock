@@ -35,6 +35,7 @@ requirements:
     - netcdf4
     - six
     - requests
+    - pyart
     - astral
 
 test:
