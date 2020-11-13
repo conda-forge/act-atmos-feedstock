@@ -5,9 +5,13 @@ Home: https://github.com/ARM-DOE/ACT
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/act-atmos-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python library for working with atmospheric time-series by n-dimension datasets
+
+Development: https://github.com/ARM-DOE/ACT
+
+Documentation: https://arm-doe.github.io/ACT/
 
 Toolkit for working with atmospheric data in every aspect
 of the scientific process.  From discovery and downloading,
