@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b2f2f7781d88dec642c4d7e55923fc6a59d6904b5223cd4511d06cffaee8414c
+  sha256: d230de793674d08754c35b0f01cb166e37243e4ac6e751587c24ef002c66833b
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ requirements:
     - six
     - requests
     - arm_pyart
-    - astral
+    - skyfield
 
 test:
   requires:
