@@ -13,9 +13,12 @@ Development: https://github.com/ARM-DOE/ACT
 
 Documentation: https://arm-doe.github.io/ACT/
 
-Toolkit for working with atmospheric data in every aspect
-of the scientific process.  From discovery and downloading,
-to visualization, to retrievals and advanced calculations
+The Atmospheric data Community Toolkit (ACT) is an open source Python toolkit for working
+with atmospheric time-series datasets of varying dimensions. The toolkit is meant to have
+functions for every part of the scientific process; discovery, IO, quality control,
+corrections, retrievals, visualization, and analysis. It is meant to be a community platform
+for sharing code with the goal of reducing duplication of effort and better connecting the
+science community with programs such as the Atmospheric Radiation Measurement (ARM) User Facility.
 
 
 Current build status
@@ -115,9 +118,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
