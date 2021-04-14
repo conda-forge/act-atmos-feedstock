@@ -23,7 +23,7 @@ requirements:
     - pyproj >=2.3.1
     - pandas
     - xarray
-    - matplotlib-base
+    - matplotlib-base <=3.2.2
     - numpy
     - scipy
     - dask
