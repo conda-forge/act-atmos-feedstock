@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d9bdec44e4af2fb67759cbae8c28e27ad7e9272126f4010a0ffbff7a6b9ab8ff
+  sha256: 1f69fdae2d1118ec4f027b532f30291c0f9d6fbe8bfe4a9194b336598bca9263
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
