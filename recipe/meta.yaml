@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "0.6.3" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 00344e1500e88ebe8bf30c1ad0417d7dd7458425284c4a5ca7a99486bedf7528
+  sha256: d9bdec44e4af2fb67759cbae8c28e27ad7e9272126f4010a0ffbff7a6b9ab8ff
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
