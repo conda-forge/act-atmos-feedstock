@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75f586c9a80daca62fbd875e95f4557bef8b33f665ce947a1dab9058d4d590a9
+  sha256: 1f69fdae2d1118ec4f027b532f30291c0f9d6fbe8bfe4a9194b336598bca9263
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - pyproj >=2.3.1
-    - pandas
+    - pandas <=1.2.3
     - xarray
     - matplotlib-base <=3.2.2
     - numpy
