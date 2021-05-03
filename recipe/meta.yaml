@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 3
+  number: 4
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,14 +21,14 @@ requirements:
   run:
     - python >=3.6
     - pyproj >=2.3.1
-    - pandas <=1.2.3
+    - pandas
     - xarray
-    - matplotlib-base <=3.2.2
+    - matplotlib-base
     - numpy
     - scipy
     - dask
     - pint
-    - cartopy <=0.17.0
+    - cartopy
     - metpy >=1.0.0
     - netcdf4
     - six
