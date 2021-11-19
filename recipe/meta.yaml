@@ -37,7 +37,7 @@ requirements:
     - skyfield
     - python-dateutil
     - pytz
-    - scikit_posthocs
+    - scikit-posthocs
 
 test:
   requires:
