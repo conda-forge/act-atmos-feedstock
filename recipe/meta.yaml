@@ -38,6 +38,7 @@ requirements:
     - python-dateutil
     - pytz
     - scikit-posthocs
+    - pysp2
 
 test:
   requires:
