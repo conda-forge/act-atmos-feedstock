@@ -32,6 +32,7 @@ requirements:
     - metpy >=1.0.0
     - netcdf4
     - six
+    - lxml
     - requests
     - arm_pyart
     - skyfield
