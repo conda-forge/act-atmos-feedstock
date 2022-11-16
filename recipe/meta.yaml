@@ -39,6 +39,7 @@ requirements:
     - python-dateutil
     - pytz
     - scikit-posthocs
+    - lazy_loader
 
 test:
   requires:
