@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 88460b5b308aa7fbd7e76261c7a1b3aedfdd0ddafa8a0379376d43c2fd25df09
+  sha256: a4fb1fe0f80af2a697f7ca5dc653b79d653a20e0dcd62d0e5170954dc0759291
 
 build:
   noarch: python
@@ -28,17 +28,14 @@ requirements:
     - scipy
     - dask
     - pint
-    - cartopy
     - metpy >=1.0.0
     - netcdf4
     - six
     - lxml
     - requests
-    - arm_pyart
     - skyfield
     - python-dateutil
     - pytz
-    - scikit-posthocs
     - lazy_loader
 
 test:
