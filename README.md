@@ -1,11 +1,11 @@
-About act-atmos
-===============
+About act-atmos-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/act-atmos-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ARM-DOE/ACT
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/act-atmos-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python library for working with atmospheric time-series by n-dimension datasets
 
