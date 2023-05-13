@@ -37,6 +37,7 @@ requirements:
     - python-dateutil
     - pytz
     - lazy_loader
+    - fsspec
 
 test:
   requires:
