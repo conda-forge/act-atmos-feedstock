@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a1edc81b8de2d3d7e0e84acf4174eee356b8fc100edc0aea523ac567e3564fb3
+  sha256: a507fb68f7d622fe3e2080dbac1d72b8d4d0c146f89aaeef4a7d64cb5de08905
 
 build:
   noarch: python
@@ -37,6 +37,7 @@ requirements:
     - python-dateutil
     - pytz
     - lazy_loader
+    - fsspec
 
 test:
   requires:
