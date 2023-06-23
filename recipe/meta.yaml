@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "1.4.5" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a507fb68f7d622fe3e2080dbac1d72b8d4d0c146f89aaeef4a7d64cb5de08905
+  sha256: 0b5f421f07aabad4bca7f3aeba70d6b60b0464f424375812d8d777836957b5e3
 
 build:
   noarch: python
@@ -53,7 +53,6 @@ about:
   license_family: BSD
   license_file: LICENSE.txt
   summary: Python library for working with atmospheric time-series by n-dimension datasets
-
   description: |
     The Atmospheric data Community Toolkit (ACT) is an open source Python toolkit for working 
     with atmospheric time-series datasets of varying dimensions. The toolkit is meant to have 
