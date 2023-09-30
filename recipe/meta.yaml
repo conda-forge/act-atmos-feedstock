@@ -38,6 +38,7 @@ requirements:
     - pytz
     - lazy_loader
     - fsspec
+    - cmweather
 
 test:
   requires:
