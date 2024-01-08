@@ -47,7 +47,7 @@ test:
   imports:
     - act
   commands:
-    - pytest -v
+    - py.test --pyargs ACT
 
 about:
   home: https://github.com/ARM-DOE/ACT
