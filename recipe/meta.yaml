@@ -1,5 +1,5 @@
 {% set name = "act-atmos" %}
-{% set version = "1.5.3" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c6e1d263c2ab24fdc62566fc7dcfd54cea9fb29d6d7ddc7234e41e2d37129ba9
+  sha256: f7e19ac249f2008fc0cb7f2f651f1465d93bbebf1d770a85d2a36853e715c9c8
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<3.12
+    - python >=3.6
     - pip
   run:
     - python >=3.6
@@ -39,6 +39,7 @@ requirements:
     - lazy_loader
     - fsspec
     - cmweather
+    - arm-test-data
 
 test:
   requires:
