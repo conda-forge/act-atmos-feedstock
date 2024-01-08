@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<3.12
+    - python >=3.6
     - pip
   run:
     - python >=3.6
@@ -47,7 +47,7 @@ test:
   imports:
     - act
   commands:
-    - py.test --pyargs act
+    - pytest -v
 
 about:
   home: https://github.com/ARM-DOE/ACT
