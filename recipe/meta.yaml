@@ -11,15 +11,15 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
   run:
-    - python >=3.6
+    - python
     - pyproj >=2.3.1
     - pandas
     - xarray
@@ -40,6 +40,7 @@ requirements:
     - fsspec
     - cmweather
     - arm-test-data
+    - aiohttp
 
 test:
   requires:
