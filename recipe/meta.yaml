@@ -43,12 +43,11 @@ requirements:
     - aiohttp
 
 test:
-  requires:
-    - pytest
   imports:
-    - act
-  commands:
-    - py.test --pyargs act
+    - act.io
+    - act.discovery
+    - act.plotting
+    - act.qc
 
 about:
   home: https://github.com/ARM-DOE/ACT
