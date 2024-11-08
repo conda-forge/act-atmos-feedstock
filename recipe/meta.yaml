@@ -43,6 +43,7 @@ requirements:
     - cmweather
     - arm-test-data
     - aiohttp
+    - sgp4 >=2.2
 
 test:
   imports:
