@@ -18,9 +18,11 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - setuptools
+    - setuptools_scm
   run:
     - python >=3.9
-    - pyproj >=2.3.1
+    - pyproj
     - pandas
     - xarray
     - matplotlib-base
@@ -28,7 +30,7 @@ requirements:
     - scipy
     - dask
     - pint
-    - metpy >=1.0.0
+    - metpy
     - netcdf4
     - six
     - lxml
@@ -41,6 +43,8 @@ requirements:
     - cmweather
     - arm-test-data
     - aiohttp
+    - setuptools
+    - setuptools_scm
 
 test:
   imports:
