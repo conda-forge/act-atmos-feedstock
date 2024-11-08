@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.9
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python {{ python_min }}
+    - python >=3.9
     - pyproj >=2.3.1
     - pandas
     - xarray
