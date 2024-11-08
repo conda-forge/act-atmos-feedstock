@@ -43,8 +43,6 @@ requirements:
     - cmweather
     - arm-test-data
     - aiohttp
-    - setuptools
-    - setuptools_scm
 
 test:
   imports:
