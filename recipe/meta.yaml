@@ -22,7 +22,7 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.9
-    - pyproj
+    - pyproj >=2.3.1
     - pandas
     - xarray
     - matplotlib-base
@@ -30,7 +30,7 @@ requirements:
     - scipy
     - dask
     - pint
-    - metpy
+    - metpy >=1.0.0
     - netcdf4
     - six
     - lxml
