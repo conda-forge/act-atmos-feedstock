@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - pyproj
     - sgp4 >=2.23
     - pandas
@@ -46,6 +46,8 @@ requirements:
     - aiohttp
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - act.io
     - act.discovery
