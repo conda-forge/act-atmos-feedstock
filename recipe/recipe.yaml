@@ -36,6 +36,7 @@ requirements:
     - pint
     - metpy
     - netcdf4
+    - openpyxl
     - six
     - lxml
     - requests
