@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: act-atmos
-  version: "2.3.4"
+  version: "2.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: b2d211316b4e93b769ceaf8c490ad50efb914a4f24d26f9bcd428d1c9332d32f
+  sha256: 7e21d87de9acd9fdc5dbfcbada8498b9159bc502ebfb62bf5b0635790144385d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv
 
