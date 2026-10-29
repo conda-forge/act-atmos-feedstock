@@ -47,6 +47,7 @@ requirements:
     - cmweather
     - arm-test-data
     - aiohttp
+    - numba
 
 tests:
   - python:
